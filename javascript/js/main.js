@@ -1,8 +1,45 @@
 
+/*
+var d = new Date(); //como inserir data no js.
+//alert(d); //mostra a data e horário completos.
+//alert(d.getMonth()+1); //o month sempre parte do zero, por isso se faz necessário acrescentar o +1.
+//alert(d.getMinutes());
+//alert(d.getHours());
+//alert(d.getDay());
+*/
 
+
+/*
+var count;
+for(count = 0; count <= 5; count++){
+    alert(count);
+};
+*/
+
+/*
+var count = 0;
+while (count < 5){
+    console.log(count);
+    alert(count);
+    count++;; //pode colocar o ++ ou +1, ambos serão adicionando +1.
+};
+*/
+
+/*
+var idade = prompt("Qual sua idade"); //serve para coletar informações.
+if (idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+*/
+
+
+/*
 var frutas = [{nome:"maçã", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
 console.log(frutas);
 alert(frutas[1].nome);
+*/
 
 /*
 var fruta = {nome:"maçã", cor:"vermelha"}
