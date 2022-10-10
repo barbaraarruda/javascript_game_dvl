@@ -7,8 +7,16 @@
     <title>Minha Página</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+    <body onload="load()"> <!--onload carrega a função quando a pag for carregada.-->
    
-    <h1>Minha página</h1>
-</body>
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> <!--onmouseover exibe algo sempre que o mouse passa em cima.-->
+        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        <select onchange="funcaoChange(this)">
+                <option value="1">Valor 1</option>
+                <option value="1">Valor 2</option>
+                <option value="1">Valor 3</option>
+        </select>
+    </body>
 </html>
